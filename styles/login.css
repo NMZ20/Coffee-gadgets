@@ -1,0 +1,24 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  background-color: rgba(69, 69, 69, 0.724);
+}
+.field {
+  color: white;
+  margin: 20px;
+}
+.field label {
+  margin-right: 20px;
+  font-size: 28px;
+}
+.field input {
+  height: 30px;
+  width: 200px;
+}
+.form-container input[type="submit"] {
+  width: 100px;
+  height: 20px;
+}
