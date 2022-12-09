@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/shoppingCart.css" />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div class="home-container">
+      <div class="nav-bar">
+        <img class="nav-bar-logo" src="../assets/logo .PNG" alt="logo" />
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./store.html">Store</a></li>
+          <li><a href="./contact-us.html">Contact Us</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./login.html">Login</a></li>
+        </ul>
+      </div>
+      <div class="cart-container">
+        <h1>Shopping Cart</h1>
+        <table class="products-table" id="products-table">
+          <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+          </tr>
+        </table>
+        <div class="calculator-container">
+          <button id="calculate-btn">Calculate Price</button>
+          <p id="total-price"></p>
+        </div>
+        <form class="add-product-form" action="javascript:addProduct()">
+          <input id="product-name" placeholder="product" type="text" />
+          <input id="product-price" placeholder="price" type="number" />
+          <input id="product-quantity" placeholder="quantity" type="number" />
+          <input value="Add Product" type="submit" />
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <img src="../assets/logo .PNG" alt="logo" />
+        <div class="sitemap">
+          <h1>Sitemap</h1>
+          <a href="../index.html">Home</a>
+          <a href="./store.html">Store</a>
+          <a href=".contact-us.html">Contact Us</a>
+          <a href="./about.html">About</a>
+        </div>
+        <div class="contact-information">
+          <h1>Contact Information</h1>
+          <p>Phone: +968 7777 7777</p>
+          <p>Email: info@coffee.com</p>
+        </div>
+      </div>
+      <div class="copyrights">Made by 133020, 130546, 119867</div>
+    </footer>
+  </body>
+  <script src="../scripts/shoppingCart.js"></script>
+</html>

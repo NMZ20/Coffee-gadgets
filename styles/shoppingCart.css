@@ -1,0 +1,39 @@
+.cart-container {
+  width: 60%;
+  margin-top: 100px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+}
+.products-table {
+  width: 100%;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.products-table,
+th,
+td {
+  border: 1px solid;
+}
+.add-product-form input {
+  font-size: 18px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+#calculate-btn {
+  margin-right: 20px;
+  font-size: 24px;
+}

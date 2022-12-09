@@ -1,0 +1,149 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Sora", sans-serif;
+}
+.home-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./assets/coffee-beans.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 30px;
+}
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  list-style: none;
+}
+.nav-bar-logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+}
+.nav-bar li {
+  margin: 20px;
+  font-size: 28px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+.nav-bar li a {
+  text-decoration: none;
+  color: white;
+}
+.nav-bar li:hover {
+  transition: all 0.2s;
+  margin-top: 10px;
+}
+
+.title-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  color: white;
+  font-size: 100px;
+  padding: 10px;
+  font-weight: 900;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.title span {
+  display: block;
+  background-image: url("./assets/coffee-beans.jpg");
+  background-position: center;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+footer {
+  width: 100%;
+  /* height: 200px; */
+  padding-top: 20px;
+  background-color: rgb(53, 53, 53);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer img {
+  width: 150px;
+  height: 150px;
+}
+footer .sitemap {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+footer .sitemap h1 {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+footer .sitemap a {
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 5px;
+}
+footer .contact-information {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+footer .contact-information h1 {
+  margin: 0px;
+  margin-bottom: 15px;
+}
+footer .contact-information p {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-size: larger;
+}
+.copyrights {
+  font-size: 24px;
+  margin: 20px;
+}
+@media only screen and (max-width: 1100px) {
+  .title {
+    font-size: 7vw;
+  }
+  .nav-bar li {
+    margin: 20px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 50px;
+  }
+  .nav-bar li {
+    margin: 15px;
+    font-size: 24;
+  }
+}

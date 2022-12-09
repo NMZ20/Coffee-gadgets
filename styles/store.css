@@ -1,0 +1,30 @@
+.products-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(53, 53, 53);
+}
+.product {
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+  border-radius: 15px;
+  margin: 50px;
+}
+.product-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 28px;
+  text-align: center;
+  color: rgb(7, 195, 133);
+}
+.product-image {
+  height: 200px;
+  width: 200px;
+}
